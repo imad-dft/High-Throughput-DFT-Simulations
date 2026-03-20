@@ -7,7 +7,7 @@ Simulating a library of halide compounds to identify stable, high-efficiency can
 
 ### 📂 Repository Architecture
 The database is structured by compound. Each material folder contains:
-* **`/Inputs_Outputs`**: Raw Quantum ESPRESSO `.in` and `.out` files (SCF, NSCF, Bands, DOS).
+* **`/Inputs`**: Raw Quantum ESPRESSO `.in` files (SCF, NSCF, Bands, DOS).
 * **`/Notebooks`**: LaTeX-compiled daily logs detailing calculation parameters, convergence testing, and physical observations.
 * **`/Visuals`**: High-fidelity band structure and optical property plots.
 
