@@ -1,6 +1,6 @@
 # High-Throughput DFT Simulations: Lead-Free Perovskites ⚛️☀️
 
-This repository serves as a comprehensive, time-stamped computational lab notebook and database for first-principles calculations of lead-free double perovskite halides.
+Time-stamped computational lab notebook and database for first-principles calculations of lead-free double perovskite halides.
 
 ### 🔬 Project Objective
 Simulating a library of halide compounds to identify stable, high-efficiency candidates for next-generation solar energy harvesting, moving away from toxic lead-based materials.
