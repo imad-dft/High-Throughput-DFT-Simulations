@@ -14,7 +14,7 @@ The database is structured by compound. Each material folder contains:
 ### 🛠️ Computational Methodology
 * **Core Engine:** Quantum ESPRESSO 
 * **Pseudopotentials:** Norm-Conserving / Ultrasoft (depending on optical vs. electronic requirements)
-* **Approximation:** GGA-PBE
+* **Approximation:** PBE
 
 ---
 *Maintained as part of ongoing undergraduate physics research. All calculations are logged chronologically to ensure scientific integrity and reproducibility.*
