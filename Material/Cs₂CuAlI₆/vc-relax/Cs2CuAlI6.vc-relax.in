@@ -1,0 +1,65 @@
+&CONTROL
+    calculation   = "vc-relax",
+    etot_conv_thr =   1.0000000000d-04,
+    forc_conv_thr =   1.0000000000d-03,
+    pseudo_dir    = '/home/asif/pseudo/',
+    outdir = './output',
+    tprnfor = .true.,
+    tstress = .true.,
+    verbosity = 'high',
+/
+
+&SYSTEM
+   ibrav = 0,
+   degauss = 0.002,
+   nat = 10,
+   ntyp = 4,
+   ecutwfc = 85,
+   ecutrho = 700,
+   nosym = .false.,
+   occupations = 'smearing',
+   smearing = 'gaussian',
+/
+
+&ELECTRONS
+  conv_thr =   1.0000000000d-7,
+  electron_maxstep = 500,
+  mixing_beta =   3.0000000000d-01,
+  diagonalization = 'david',      ! for faster ittration alternative we use 'cg'
+/
+
+&IONS
+    ion_dynamics = "bfgs",
+/
+
+&CELL
+    cell_dynamics = 'bfgs',
+    cell_dofree   = 'all',
+    press_conv_thr = 0.5,
+/
+ATOMIC_SPECIES
+Al     26.981538     Al.pbe-mt_fhi.UPF
+Cs     132.9054519   Cs.pbe-mt_fhi.UPF
+I      126.90447     I.pbe-mt_fhi.UPF
+Cu      63.546       Cu.pbe-mt_fhi.UPF
+
+
+CELL_PARAMETERS (angstrom)
+   2.320201935   6.562502874   4.018693257
+   2.320201935   6.562502874  -4.018693257
+  -4.640381337   6.562494909   0.000000000
+
+ATOMIC_POSITIONS (crystal)
+Cs            0.7500004831        0.7500004831        0.7499997455
+Cs            0.2499995169        0.2499995169        0.2500002545
+Cu            0.5000000000        0.5000000000        0.5000000000
+Al            0.0000000000        0.0000000000        0.0000000000
+I             0.2471364947        0.7528627086        0.2471374712
+I             0.7528635053        0.2471372914        0.7528625288
+I             0.2471359598        0.2471359598        0.7528644421
+I             0.7528640402        0.7528640402        0.2471355579
+I             0.2471372914        0.7528635053        0.7528625288
+I             0.7528627086        0.2471364947        0.2471374712
+
+K_POINTS automatic
+6 6 6  0 0 0
