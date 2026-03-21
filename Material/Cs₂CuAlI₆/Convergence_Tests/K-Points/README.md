@@ -17,7 +17,7 @@ I ran several SCF calculations while keeping the energy cutoff constant at 85 Ry
 ### 🐍 Python Visualization
 I used a custom Python script (using Matplotlib) to visualize the convergence trend. This allows for a clear view of the asymptotic behavior of the total energy.
 
-![K-Point Convergence](./kpoints_convergence.png)
+![kpoints_convergence](./kpoints_convergence.png)
 
 ---
 *Note: All calculations were performed using the PBE-GGA functional in Quantum ESPRESSO.*
