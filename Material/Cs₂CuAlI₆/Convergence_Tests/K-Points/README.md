@@ -20,4 +20,4 @@ I used a custom Python script (using Matplotlib) to visualize the convergence tr
 ![kpoints_convergence](./kpoints_convergence.png)
 
 ---
-*Note: All calculations were performed using the PBE-GGA functional in Quantum ESPRESSO.*
+*Note: All calculations were performed using the PBE functional in Quantum ESPRESSO.*
