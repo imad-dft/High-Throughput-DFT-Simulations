@@ -1,4 +1,4 @@
-# High-Throughput DFT Simulations: Lead-Free Perovskites ⚛️☀️
+# High-Throughput DFT Simulations: Lead-Free Halide Double Perovskites ⚛️☀️
 
 Time-stamped computational lab notebook and database for first-principles calculations of lead-free double perovskite halides.
 
