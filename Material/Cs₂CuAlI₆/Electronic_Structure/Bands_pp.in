@@ -1,0 +1,6 @@
+&bands
+    prefix='alas'
+    outdir   =  "./t/"
+    filband  =  "aiida.bands.dat"
+    
+/
