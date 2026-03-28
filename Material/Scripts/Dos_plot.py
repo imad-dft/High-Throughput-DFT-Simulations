@@ -9,11 +9,11 @@ import matplotlib.ticker as ticker
 # ================= USER CONFIGURATION =================
 # Set these for your specific run
 COMPOUND_NAME_PLAIN = "Rb2NaInBr6"
-COMPOUND_NAME_LATEX = r"Rb$_2$NaInBr$_6$"
-FERMI_E = 3.5950    
-XLIM = (-6, 6)      
-SMOOTH = 2          
-TARGET_DPI = 600    
+COMPOUND_NAME_LATEX = r"Rb$_2$NaInBr$_6$"     # The latex style name used for the plot naming . 
+FERMI_E = 3.5950      # Fermi energy from the SCF , NSCF or BANDS.in files .     
+XLIM = (-6, 6)       #  basicaly we see clear bands under the { -6 , 6} but we can change it to according to our will and need . 
+SMOOTH = 2           # for smoothness .
+TARGET_DPI = 600         
 # ======================================================
 
 def smooth_array(arr, window):
